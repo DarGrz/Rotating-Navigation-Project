@@ -41,8 +41,12 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    position: relative;
+    position: fixed;
     transition: transform .5s linear;
+}
+
+.container.show-nav .circle {
+    transform: rotate(-70deg);
 }
 
 .circle button {
